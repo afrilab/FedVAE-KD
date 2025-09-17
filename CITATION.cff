@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Author"
+    given-names: "First"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "Author"
+    given-names: "Second"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "FedVAE-KD: Privacy-Preserving Federated Learning for Wireless Network Intrusion Detection"
+version: 1.0.0
+doi: 10.5281/zenodo.XXXXXXX
+date-released: 2025-09-17
+url: "https://github.com/yourusername/FedVAE-KD"

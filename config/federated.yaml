@@ -1,0 +1,27 @@
+# Federated Learning Configuration
+
+# Federated Learning Parameters
+num_clients: 10
+num_rounds: 50
+fraction_clients: 0.5  # Fraction of clients to sample each round
+
+# Client Settings
+client:
+  local_epochs: 5
+  batch_size: 64
+  learning_rate: 0.001
+
+# Aggregation Algorithms
+aggregation:
+  algorithms: [FedAvg, FedProx, FedAdam]
+  selected: FedAvg
+
+# Client Selection Strategy
+client_selection:
+  strategy: random
+  replacement: false
+
+# Communication Settings
+communication:
+  rounds_per_evaluation: 5
+  rounds_per_checkpoint: 10

@@ -1,0 +1,25 @@
+# Model Configuration
+
+# VAE Hyperparameters
+vae:
+  input_dim: 49  # UNSW-NB15 dataset feature count
+  latent_dim: 64
+  hidden_layers: [512, 256, 128]
+  dropout_rate: 0.2
+  activation: relu
+
+# Teacher Model
+teacher:
+  input_dim: 64  # VAE latent space
+  hidden_layers: [512, 128, 64]
+  output_dim: 2  # Binary classification (normal vs attack)
+  dropout_rate: 0.3
+  activation: relu
+
+# Student Model
+student:
+  input_dim: 64  # VAE latent space
+  hidden_layers: [256, 64, 32]
+  output_dim: 2  # Binary classification (normal vs attack)
+  dropout_rate: 0.2
+  activation: relu

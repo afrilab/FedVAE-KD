@@ -1,0 +1,17 @@
+name: fedvae-kd
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - pip:
+    - tensorflow>=2.8.0
+    - cryptography>=3.4.0
+    - pytest>=6.2.0
