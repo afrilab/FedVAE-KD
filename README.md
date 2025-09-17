@@ -192,9 +192,8 @@ If you use this code or find our work helpful in your research, please cite our 
 @article{fedvae_kd_2025,
   title={A Privacy-Preserving Federated Learning Framework for Scalable Wireless Network Intrusion Detection},
   author={Yagiz, M.A. and Cengiz, Z.S. and Goktas, P.},
-  journal={Journal of Network and Computer Applications},
-  year={2025},
-  publisher={Elsevier}
+  journal={Submitted to MDPI},
+  year={2025}
 }
 ```
 

@@ -15,10 +15,9 @@ If you use this code or find our work helpful, please cite our paper:
 ```bibtex
 @article{fedvae_kd_2025,
   title={A Privacy-Preserving Federated Learning Framework for Scalable Wireless Network Intrusion Detection},
-  author={Author1, A. and Author2, B. and Author3, C.},
-  journal={Journal of Network and Computer Applications},
-  year={2025},
-  publisher={Elsevier}
+  author={Yagiz, M.A. and Cengiz, Z.S. and Goktas, P.},
+  journal={Submitted to MDPI},
+  year={2025}
 }
 ```
 
