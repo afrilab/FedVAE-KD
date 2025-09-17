@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![TensorFlow 2.8+](https://img.shields.io/badge/tensorflow-2.8+-orange.svg)](https://www.tensorflow.org/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![Paper Status: Submitted to MDPI](https://img.shields.io/badge/paper-submitted%20to%20MDPI-blue)](https://www.mdpi.com/)
 
 ## 📝 Overview
 
@@ -15,6 +15,8 @@ FedVAE-KD is a privacy-preserving federated learning framework designed for scal
 - **Advanced Security Mechanisms** including encryption and differential privacy
 
 Our framework addresses key challenges in network security by enabling collaborative intrusion detection while preserving data privacy and minimizing communication overhead.
+
+> 📝 **Paper Status**: This research has been submitted to MDPI for publication. The paper is currently under review.
 
 ## 🔧 Key Features
 
@@ -81,7 +83,7 @@ FedVAE-KD/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/anilyagiz/FedVAE-KD.git
+   git clone https://github.com/afrilab/FedVAE-KD.git
    cd FedVAE-KD
    ```
 
@@ -189,7 +191,7 @@ If you use this code or find our work helpful in your research, please cite our 
 ```bibtex
 @article{fedvae_kd_2025,
   title={A Privacy-Preserving Federated Learning Framework for Scalable Wireless Network Intrusion Detection},
-  author={Author1, A. and Author2, B. and Author3, C.},
+  author={Yagiz, M.A. and Cengiz, Z.S. and Goktas, P.},
   journal={Journal of Network and Computer Applications},
   year={2025},
   publisher={Elsevier}
